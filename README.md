@@ -31,6 +31,13 @@ __outputs__ = '''
             
 #_________________________________________________________________________________________
 
-example run: python3 main.py --StarMap=~/Pictures/inputs/StarMap.png --crop=~/Pictures/inputs/Small_area.png  --resize=1/5
+example run: 
+
+                       python3 main.py --StarMap=~/Pictures/inputs/StarMap.png --crop=~/Pictures/inputs/Small_area.png  --resize=1/5
 
 example output: 
+
+                        upper left corner:  (117, 257)
+                        upper right corner:  (231, 257)
+                        lowe left corner:  (117, 371)
+                        lower right corner:  (231, 371)
