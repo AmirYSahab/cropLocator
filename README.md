@@ -32,4 +32,5 @@ __outputs__ = '''
 #_________________________________________________________________________________________
 
 example run: python3 main.py --StarMap=~/Pictures/inputs/StarMap.png --crop=~/Pictures/inputs/Small_area.png  --resize=1/5
+
 example output: 
