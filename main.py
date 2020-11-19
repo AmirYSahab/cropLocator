@@ -256,4 +256,4 @@ if __name__ == '__main__':
     
     app = __app__(args)
     
-    app = __app__()
+    #app = __app__()
