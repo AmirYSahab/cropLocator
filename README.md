@@ -18,6 +18,8 @@ __doc__= '''
 __inputs__ = '''
             base_image_path: str
             croped_image_path: str
+            resize: float or None
+            type: str (one of 'corrcoef','ssim' or 'mse')
             '''
             
 __outputs__ = '''
@@ -33,7 +35,7 @@ __outputs__ = '''
 
 example run: 
 
-                       python3 main.py --StarMap=~/Pictures/inputs/StarMap.png --crop=~/Pictures/inputs/Small_area.png  --resize=1/5
+                       python3 main.py --StarMap=~/Pictures/inputs/StarMap.png --crop=~/Pictures/inputs/Small_area.png  --resize=1/5 --type='ssim'
 
 example output: 
 
