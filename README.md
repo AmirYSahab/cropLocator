@@ -9,7 +9,7 @@ __url__ = (' ')
 
 __version__= '0.0'
 
-__doc__= '''
+__doc__= 
 
             reads images and prints out the 4 corner coordinates of the croped region
             
@@ -17,9 +17,7 @@ __doc__= '''
             
             output: coordinates of the most ptobable croped region
             
-            '''
-            
-__inputs__ = '''
+__inputs__ = 
 
             base_image_path: str
             
@@ -29,9 +27,7 @@ __inputs__ = '''
             
             type: str (one of 'corrcoef','ssim' or 'mse')
             
-            '''
-            
-__outputs__ = '''
+__outputs__ = 
 
             coordinates of the most probable croped region 
             
@@ -44,8 +40,6 @@ __outputs__ = '''
                 lower lef corner   (llc): tuple
                 
                 lower right corner (lrc): tuple
-                
-            '''
             
 #_________________________________________________________________________________________
 
