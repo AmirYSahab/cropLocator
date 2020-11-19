@@ -1,7 +1,7 @@
 # cropLocator
 reads images and prints out the 4 corner coordinates of the croped region
 
-#_________________________________________________________________________________________
+            _________________________________________________________________________________________
 
 __author__= ['Amir Yeganehsahab']
 
@@ -41,11 +41,11 @@ __outputs__ =
                 
                 lower right corner (lrc): tuple
             
-#_________________________________________________________________________________________
+            _________________________________________________________________________________________
 
 example run: 
 
-                       python3 main.py --StarMap=~/Pictures/inputs/StarMap.png --crop=~/Pictures/inputs/Small_area.png  --resize=1/5 --type='ssim'
+             python3 main.py --StarMap=~/Pictures/inputs/StarMap.png --crop=~/Pictures/inputs/Small_area.png  --resize=1/5 --type='ssim'
 
 example output: 
 
